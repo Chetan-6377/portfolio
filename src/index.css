@@ -1,0 +1,289 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 10px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+h1,h2,h3,h4,h5,h6{
+    color: black;
+    font-family: 'Libre Baskerville', serif;
+}
+p{
+    color: black;
+    font-family: 'Overpass', sans-serif;
+}
+/* ******************************loading screen**************************** */
+
+/* *******************navbar ************************ */
+.navbar-bg{
+    background-color: rgb(191, 191, 253);
+    z-index: 99;
+    position: relative;
+    padding: 0.5rem 0;
+}
+.navbar-brand{
+    font-size: 3.5rem;
+    font-family: 'Satisfy', cursive;
+
+}
+.navbar li{
+    padding: 0 2rem;
+}
+.navbar li a{
+    font-size: 2rem;
+    font-weight: 500;
+}
+.navbar li a:hover{
+    text-shadow: 0 0.2rem 0.3rem rgb(166, 144, 247);
+}
+/* ********************header  part******************* */
+header{
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(191, 191, 253);
+}
+.main-hero-container{
+    height: 80vh;
+    display: flex;
+}
+.main-hero-container h1{
+    text-transform: capitalize;
+    font-weight: bold;
+}
+.main-hero-para{
+    font-size: 2.5rem;
+    margin: 3rem 0 5rem 0;
+    font-weight: 600;
+    width: 75%;
+}
+.btn-border{
+    display: inline-block;
+    box-shadow: 0 0 0 3px #000;
+    -webkit-transform: translate(11px, 11px);
+    -ms-transform: translate(11px, 11px);
+    transform: translate(11px, 11px);
+    margin: 2rem;
+}
+.btn-style{
+    min-width: 15rem;
+    box-shadow: 0 0 0 3px #000;
+    font-size: 2rem;
+    font-weight: 400;
+    text-align: center;
+    transform: translate3d(-8px, -8px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg,0deg);
+    transition: .2 ease-in-out;
+	-webkit-transition: .2s ease-in-out;
+    transform-style: preserve-3d;
+    padding: 9px 15px;
+    background-color: black;
+    color:white;
+}
+.btn-style:hover{
+    transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg,0deg);
+    color: white;    
+}
+ .header-left-side{
+     animation: text 1s ease-in;
+     transform-style: preserve-3d;
+    } 
+    @keyframes text{
+        0%{
+            transform:translate3d(0px, 175px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+            opacity: 0;
+    }
+   100%{
+        transform:translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+        opacity: 1;
+    }
+}
+.header-right-side .img-2{
+    width: 90%;
+    height: 60%;
+    margin-top: 10rem;
+    border-radius: 1.5rem;
+    margin-left: 10rem;
+    -webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.header-right-side .img-2:hover{
+    -webkit-transform: scale(1.2);
+	transform: scale(1.2);
+}
+/* ************************work section************************** */
+.work-container{
+    width: 100%;
+    height:auto;
+}
+
+.latest-work{
+    letter-spacing: 0.2em;
+    margin: 2rem 2rem 2rem 0; 
+    text-transform: uppercase;
+    color: gray;
+}
+.tag{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.tag .title{
+    padding: 1rem;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+.work-right-side .main-hero-para{
+    font-size: 2.2rem;
+    font-weight: 500;
+}
+.work-right-side{
+    margin: 10rem auto;
+}
+.card {
+    margin: 15rem auto;
+    width: 46rem;
+    height: 40rem;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.85);
+  }
+  .card .img-2{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+  .card:hover .content {
+    transform: translateY(0%);
+    transition: 1s;
+    transition-delay: 0.1s;
+  }
+  
+  .content {
+      background : rgb(169, 170, 169);
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    padding: 20px 20px;
+    width: 100%;
+    height: 100%;
+    transform: translateY(100%);
+    font-size: 2rem;
+  }
+  .content .latest-work{
+      color: white;
+      font-size: 1.5rem;
+      font-weight: 600;
+  }
+.hr-tag{
+
+    width: 100%;
+    color: black;
+    margin-top: 3rem;
+}
+/* **********************work do***************************** */
+.work-do-container{
+    width: 100%;
+    height: auto;
+    padding: 10rem 0;
+}
+
+.work-do-right-side .latest-work{
+color: black;
+}
+.work-do-right-side .main-hero-para{
+    font-weight: 500;
+    font-size: 2rem;
+    margin-top: 1rem;
+}
+.want-to-work{
+    width: 100%;
+    height: 50vh;
+    background-color: rgb(166, 144, 247);
+    padding:5rem 0;
+}
+.want-work-right-side p a{
+    text-decoration: none;
+    color: blanchedalmond;
+}
+
+footer{
+    font-size: 1.5rem;
+    padding-top: 6rem;
+}
+
+/* ***************************media quries**************** */
+@media(max-width:992px){
+    header{
+        height: auto;
+    }
+    .header-right-side .img-2{
+        display: none;
+    }
+    .header-left-side{
+        padding: 1rem;
+        margin-top: 0;
+    }
+    .order-last{
+        order: 0!important;
+    }
+    .header-left-side .main-hero-para{
+        width: 100%;
+    }
+    .header-left-side .input-text{
+        display: flex;
+    }
+    .header-left-side .btn-border{
+        margin: 1rem;
+        transform: translate(7px, 55px);
+    }
+    /* ****************************** */
+    .work-left-side .img-2{
+        padding: 1rem;
+    }
+    .card{
+        margin: 5rem auto;
+    }
+    .tag .title{
+        padding: 1rem;
+    }
+    .work-right-side{
+        margin: 5rem auto;
+    }
+    .work-right-side .main-hero-para{
+        font-size: 2.7rem;
+        width: 93%;
+    }
+    .work-button{
+        display: grid;
+        vertical-align: middle;        
+    }
+    .work-do-container{
+        padding: 10rem 2.5rem;
+    }
+    .work-do-right-side .main-hero-para{
+        width: 100%;
+    }
+    .want-to-work .main-hero-para{
+        font-size: 2rem;
+    }
+    .want-to-work{
+        margin-bottom: 5rem;
+    }
+    footer{
+        padding-top: 3rem;
+        margin-bottom: 3rem;
+    }
+}
