@@ -19,7 +19,15 @@ p{
     font-family: 'Overpass', sans-serif;
 }
 /* ******************************loading screen**************************** */
-
+.app{
+    background-color: rgb(46, 44, 44);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    height: 100vh;
+}
 /* *******************navbar ************************ */
 .navbar-bg{
     background-color: rgb(191, 191, 253);
@@ -145,6 +153,8 @@ header{
 }
 .work-right-side{
     margin: 10rem auto;
+    animation: text 1s ease-in;
+    transform-style: preserve-3d;
 }
 .card {
     margin: 15rem auto;
@@ -152,7 +162,6 @@ header{
     height: 40rem;
     position: relative;
     overflow: hidden;
-    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.85);
   }
   .card .img-2{
     position: absolute;
@@ -255,6 +264,8 @@ footer{
     }
     .card{
         margin: 5rem auto;
+        width: 35rem;
+        height: 30rem;
     }
     .tag .title{
         padding: 1rem;
@@ -281,9 +292,10 @@ footer{
     }
     .want-to-work{
         margin-bottom: 5rem;
+        padding: 2rem;
     }
     footer{
-        padding-top: 3rem;
-        margin-bottom: 3rem;
+        padding-top: 2rem;
+        margin-bottom: 2rem;
     }
 }
