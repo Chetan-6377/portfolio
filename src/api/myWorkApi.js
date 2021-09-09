@@ -6,7 +6,7 @@ const myWorkApi = [
         title2: "Music Website",
         title3: "Concept",
         info: "This is a homepage design and build for a concept project – MyTunes. I designed the page first then built a responsive web page using HTML ,CSS ,BOOTSTRAP.",
-        img: "https://images.pexels.com/photos/837267/pexels-photo-837267.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+        img: "./images/mytunes.jpg",
         project: "https://chetan-6377.github.io/mytunes/",
         contentH: "MyTunes",
         content: "A music website should be professional, organized, yet show some creative flair."
