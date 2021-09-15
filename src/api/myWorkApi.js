@@ -1,6 +1,18 @@
 const myWorkApi = [
     {
         id: 1,
+        heading: "Burger King",
+        title1: "Web Design",
+        title2: "Food",
+        title3: "Responsive",
+        info: "This is a homepage design and build for a concept project Burger King. I designed the page first then built a responsive by using REACT.JS, HTML ,CSS ,BOOTSTRAP,JAVASCRIPT.",
+        img: "./images/burger.jpg",
+        project: "https://chetan-6377.github.io/BurgerKing/",
+        contentH: "Burger King",
+        content: "Every day, more than 11 million guests visit Burger King restaurants around the world. And they do so because our restaurants are known for serving high-quality, great-tasting, and affordable food."
+    },
+    {
+        id: 2,
         heading: "MyTunes",
         title1: "Web Design",
         title2: "Music Website",
@@ -12,7 +24,7 @@ const myWorkApi = [
         content: "A music website should be professional, organized, yet show some creative flair."
     },
     {
-        id: 2,
+        id: 3,
         heading: "Parallex Website",
         title1: "Web Design ",
         title2: "Parallex Website",
@@ -24,7 +36,7 @@ const myWorkApi = [
         content: "Parallax scrolling is a special scrolling technique used in web design where background images throughout a web page move slower than foreground images, creating an illusion of depth on a two-dimensional site"
     },
     {
-        id: 3,
+        id: 4,
         heading: "Demo Website",
         title1: "Web Design",
         title2: "Work",
