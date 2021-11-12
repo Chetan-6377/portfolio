@@ -47,5 +47,17 @@ const myWorkApi = [
         contentH: "Demo Website",
         content: "This Website is for Demo purpose ,we built website for those who want a website"
     },
+    {
+        id: 5,
+        heading: "Music Player",
+        title1: "Web Design",
+        title2: "Music Player",
+        title3: "JavaScript",
+        info: "This is a homepage design and build for a concept Music player. I designed the page first using Html and css.After that I used Javascript to control and play the music",
+        img: "./images/Music.jpg",
+        project: "https://chetan-6377.github.io/music/",
+        contentH: "Music player",
+        content: "This Website is for Demo purpose ,we built website for those who want a website"
+    },
 ]
 export default myWorkApi
