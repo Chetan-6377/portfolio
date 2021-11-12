@@ -17,7 +17,7 @@ const WhatIDo = () => {
                     </div>
                 </div>
             </section>
-            <section className="want-to-work">
+            <section className="want-to-work ">
                 <div className="container">
                     <div className="row">
                         <div className="col-12 col-lg-5  d-flex  align-items-start flex-column ">
@@ -29,7 +29,7 @@ const WhatIDo = () => {
                             </p>
                         </div>
                         <footer>
-                        © All rights reserved – Chetan Kumar
+                        <p>© All rights reserved – Chetan Kumar</p>
                         </footer>
                     </div>
                 </div>

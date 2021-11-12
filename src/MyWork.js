@@ -6,7 +6,7 @@ const MyWork = () => {
     return (
         <>
             <section className="my-work-container " id="myWork">
-                <div className="work-container container">
+                <div className="work-container container-fluid">
                     <div className="row work-div">
                         {workData.map((currElem) => {
                             const { id, heading, title1, title2, title3, info, img, project,contentH,content} = currElem;
